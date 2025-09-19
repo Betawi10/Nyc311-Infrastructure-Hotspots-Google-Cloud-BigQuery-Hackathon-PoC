@@ -78,13 +78,7 @@ We keep everything **US region-pinned** with `SET @@location = 'US'` at the top 
 - **Snapshot window**: 180 days (configurable); window anchored to the source table’s **MAX(created_date)** so decay metrics are consistent across reruns.
 
 ---
-## Outputs
 
-![Resulting Clusters in hulls, with briefings, prioritization.png](Images/Resulting Clusters in hulls, with briefings, prioritization.png)
-![Resulting cluster per borough with briefings, prioritization](Images/Resulting cluster per borough with briefings, prioritization.png)
-![Architecture Diagram](Images/Architecture Diagram.png)
-
----
 ## What We Built (Step-by-Step)
 
 ### 1) Dataset & Config
